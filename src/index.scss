@@ -8,11 +8,20 @@ body {
 }
 
 .navbar {
-    box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
 }
 
 svg {
   width: 1.5rem;
+}
+
+.button svg {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card {
+  box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
 }
 
 @import "scss/bootstrap-customisation.scss";

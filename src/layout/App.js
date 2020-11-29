@@ -5,8 +5,8 @@ import Search from './pages/search/Search';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar bg="primary">
+    <div className="App" className="h-100 bg-light">
+      <Navbar bg="primary" sticky="top">
         <Navbar.Brand href="#home">
           <img
             alt=""
