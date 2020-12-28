@@ -21,7 +21,28 @@ svg {
 }
 
 .card {
-  box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+  box-shadow: 0 0 35px 0 rgba(154, 161, 171, .15);
+}
+
+.nounderline {
+  text-decoration: none !important
+}
+
+.nounderline:hover {
+  text-decoration: none !important
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 @import "scss/bootstrap-customisation.scss";
+@import "scss/rc-slider.scss";

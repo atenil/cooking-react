@@ -1,0 +1,48 @@
+.food-card {
+  transition: transform 0.3s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+}
+
+.favourite-icon {
+  box-shadow: none !important;
+}
+
+.favourite-icon {
+  opacity: 0.9 !important;
+  transition: opacity 0.3s ease;
+}
+
+.favourite-icon:hover:before {
+  left: 0;
+  background: linear-gradient(to top left, transparent 50%, #ff9c00 51%);
+}
+
+.favourite-icon:hover:after {
+  right: 0;
+  background: linear-gradient(to top right, transparent 50%, #ff9c00 51%);
+}
+
+.favourite-icon::after, .favourite-icon::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 30%;
+}
+
+@media (pointer: fine) {
+  .favourite-icon {
+    opacity: 0 !important;
+  }
+
+  .card:hover>.favourite-icon {
+    opacity: 0.9 !important;
+  }
+
+  .isFavourite {
+    opacity: 0.9 !important;
+  }
+}

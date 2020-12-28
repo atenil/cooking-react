@@ -1,8 +1,8 @@
-$theme-colors: (
-    "primary": #ff9c00,
-    "secondary": #ffdd00,
-    "light": lightyellow
-);
+
+    $primary: #ff9c00;
+    $secondary: #ffdd00;
+    $light: lightyellow;
+
 
 /* import bootstrap to set changes */
 @import "~bootstrap/scss/bootstrap";
